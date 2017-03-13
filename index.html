@@ -71,7 +71,14 @@
     <header>
         <div class="header-content">
             <div class="header-content-inner">
-                <h1 id="homeHeading">Comfortable and affordable living in Washington DC</h1>
+                <h1 id="homeHeading">
+                  <div style="background-color: rgba(0, 0, 0, 0.7); padding: 0px 10px; display: inline-block;">
+                    Comfortable and affordable
+                  </div>
+                  <div style="background-color: rgba(0, 0, 0, 0.7); padding: 0px 10px; display: inline-block;">
+                    living in Washington DC
+                  </div>
+                </h1>
                 <hr style="border-color: white;">
                 <p style="background-color: rgba(0, 0, 0, 0.7); margin: 0px auto; display: inline-block; padding: 0px 7px; color: white;">
                   Convenient location in the Hillcrest neighborhood just off Pennsylvania Avenue.
@@ -100,7 +107,7 @@
                     <br />
                     <a href="refund" style="color: white; ">Refund Policy</a>
                     <p class="text" style="font-size: 1.2em; margin-top: 1em;">Click below to make a secure rent or application payment</p>
-                    <div id="cpeb3ed2ab21" style="margin: 10px 0" onclick="document.getElementById('pay_now_form_03e61333e4').submit()">
+                    <div id="cp41cc954986" style="margin: 10px 0" onclick="document.getElementById('pay_now_form_b5fec40138').submit()">
                       <div>
                         <div class='r-bg '>
                           <span class='r-fg r-fg-3'></span> 
@@ -108,7 +115,18 @@
                           <span class='r-fg r-fg-1'></span> 
                           <span class='r-fg r-fg-0'></span> 
                         </div>
-                          <button class="page-scroll btn btn-default btn-xl sr-button">Pay here</button>
+                        <form action="https://checkout.globalgatewaye4.firstdata.com/pay" id="pay_now_form_b5fec40138" method="post"><input type="hidden" name="x_login" value="WSP-L'ENF-iKOyUQCHdQ" />
+                          <input type="hidden" name="x_show_form" value="PAYMENT_FORM" />
+                          <input type="hidden" name="x_fp_sequence" value="1489420813664862295" />
+                          <input type="hidden" name="x_fp_hash" value="PNB-1.0-ff8132cace8b1d6ef859b08f270bbe2fd9be6874" />
+                          <input type="hidden" name="x_amount" />
+                          <input type="hidden" name="x_currency_code" value="USD" />
+                          <input type="hidden" name="x_test_request" value="FALSE" />
+                          <input type="hidden" name="x_relay_response" value="" />
+                          <input type="hidden" name="donation_prompt" value="Please enter the amount you wish to pay - you will be prompted for payment details on the next page" />
+                          <input type="hidden" name="button_code" value="Pay Now L'Enfant Apartments" />
+                            <button class="page-scroll btn btn-default btn-xl sr-button">Pay here</button>
+                        </form>
                         <div class='r-bg '>
                           <span class='r-fg r-fg-0'></span> 
                           <span class='r-fg r-fg-1'></span> 
